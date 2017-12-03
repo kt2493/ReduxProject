@@ -9,7 +9,7 @@ renderList(){
         return(
             <li 
                 onClick={() => this.props.selectBook(book)}
-                key={book.title} 
+                key={book.title}
                 className="list-group-item">
                 {book.title}
             </li>
